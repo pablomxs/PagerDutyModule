@@ -1,0 +1,46 @@
+# Ignore compiled or temporary files
+*.psd1
+*.psm1.user
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# Ignore PowerShell cache files
+*.ps1xml
+*.pdb
+*.dll
+*.nupkg
+
+# Ignore package manager folders
+modules/
+packages/
+node_modules/
+.vscode/
+.idea/
+.vs/
+
+# Ignore build artifacts
+bin/
+obj/
+
+# Ignore user-specific configurations
+*.psm1.user
+*.suo
+*.user
+*.settings
+
+# Ignore sensitive information files
+*.secret.json
+*.config
+
+# Ignore temporary or backup files
+~$*
+*.bak
+*.old
+
+# Ignore test output or temporary test data
+TestResults/
+TestOutput/
+coverage/
